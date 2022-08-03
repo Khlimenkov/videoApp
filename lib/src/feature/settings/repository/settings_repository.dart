@@ -1,7 +1,7 @@
 import 'package:l/l.dart';
 import 'package:pure/pure.dart';
-import 'package:purple_starter/src/feature/settings/database/settings_dao.dart';
-import 'package:purple_starter/src/feature/settings/enum/app_theme.dart';
+import 'package:videoapp/src/feature/settings/database/settings_dao.dart';
+import 'package:videoapp/src/feature/settings/enum/app_theme.dart';
 
 abstract class ISettingsRepository {
   AppTheme? get theme;

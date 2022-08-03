@@ -1,12 +1,11 @@
 // ignore_for_file: unnecessary_lambdas, prefer_const_constructors
 
 import 'package:flutter/widgets.dart';
-import 'package:purple_starter/runner_stub.dart' as runner_stub;
-import 'package:purple_starter/src/core/error/parsing_exception.dart';
-import 'package:purple_starter/src/core/error/unknown_host_platform_error.dart';
-import 'package:purple_starter/src/core/router/app_router.dart';
-
 import 'package:test/test.dart';
+import 'package:videoapp/runner_stub.dart' as runner_stub;
+import 'package:videoapp/src/core/error/parsing_exception.dart';
+import 'package:videoapp/src/core/error/unknown_host_platform_error.dart';
+import 'package:videoapp/src/core/router/app_router.dart';
 
 void main() {
   group('Smoke unit test', () {

@@ -2,7 +2,7 @@
 
 gen-build: pub-get
 	@echo "* Running build runner *"
-	@time timeout 300 flutter pub run build_runner build
+	@time timeout 300 flutter pub run build_runner build 
 
 gen-build-delete: pub-get
 	@echo "* Running build runner with deletion of conflicting outputs *"

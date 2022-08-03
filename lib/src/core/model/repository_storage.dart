@@ -1,7 +1,7 @@
-import 'package:purple_starter/src/core/database/drift/app_database.dart';
-import 'package:purple_starter/src/feature/settings/database/settings_dao.dart';
-import 'package:purple_starter/src/feature/settings/repository/settings_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:videoapp/src/core/database/drift/app_database.dart';
+import 'package:videoapp/src/feature/settings/database/settings_dao.dart';
+import 'package:videoapp/src/feature/settings/repository/settings_repository.dart';
 
 abstract class IRepositoryStorage {
   ISettingsRepository get settings;

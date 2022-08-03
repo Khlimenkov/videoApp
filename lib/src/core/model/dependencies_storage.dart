@@ -1,6 +1,7 @@
+import 'package:camera/camera.dart';
 import 'package:dio/dio.dart';
-import 'package:purple_starter/src/core/database/drift/app_database.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:videoapp/src/core/database/drift/app_database.dart';
 
 abstract class IDependenciesStorage {
   Dio get dio;

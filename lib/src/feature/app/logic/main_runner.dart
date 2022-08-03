@@ -4,12 +4,12 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:purple_starter/src/core/extension/extensions.dart';
-import 'package:purple_starter/src/feature/app/bloc/app_bloc_observer.dart';
-import 'package:purple_starter/src/feature/app/logic/logger.dart';
-import 'package:purple_starter/src/feature/app/logic/sentry_init.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:stream_bloc/stream_bloc.dart';
+import 'package:videoapp/src/core/extension/extensions.dart';
+import 'package:videoapp/src/feature/app/bloc/app_bloc_observer.dart';
+import 'package:videoapp/src/feature/app/logic/logger.dart';
+import 'package:videoapp/src/feature/app/logic/sentry_init.dart';
 
 typedef AsyncDependencies<D> = Future<D> Function();
 typedef AppBuilder<D> = Widget Function(

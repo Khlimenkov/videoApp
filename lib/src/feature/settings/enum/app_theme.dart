@@ -1,4 +1,4 @@
-import 'package:purple_starter/src/core/error/parsing_exception.dart';
+import 'package:videoapp/src/core/error/parsing_exception.dart';
 
 enum AppTheme {
   light,

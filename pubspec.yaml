@@ -1,5 +1,5 @@
-name: purple_starter
-description: A fresh Flutter project created using Purple Starter.
+name: videoapp
+description: videoapp.
 
 publish_to: 'none'
 
@@ -19,7 +19,7 @@ dependencies:
   meta: ^1.7.0
 
   # System
-  path_provider: ^2.0.0
+  path_provider: ^2.0.11
   path: ^1.8.0
   platform_info: ^3.1.0
 
@@ -58,6 +58,17 @@ dependencies:
 
   # Navigation
   auto_route: ^3.2.4
+
+  # Camera
+  ffmpeg_kit_flutter: ^4.5.1
+  camera: ^0.9.8
+  video_player: ^2.4.4
+  gallery_saver: ^2.3.2
+  photo_manager: ^2.1.4
+  video_thumbnail: ^0.5.0
+
+  # Permissions
+  permission_handler: ^9.2.0
 
 dev_dependencies:
   # Analyzer extensions

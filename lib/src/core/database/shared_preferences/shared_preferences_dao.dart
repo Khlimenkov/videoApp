@@ -5,7 +5,7 @@ abstract class ISharedPreferencesDao implements SharedPreferences {
 }
 
 abstract class SharedPreferencesDao implements ISharedPreferencesDao {
-  static const namespace = 'shared_preference.purple_starter';
+  static const namespace = 'shared_preference.videoapp';
 
   final SharedPreferences _sharedPreferences;
 

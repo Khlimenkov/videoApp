@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:purple_starter/src/core/widget/scope.dart';
-import 'package:purple_starter/src/feature/app/logic/sentry_init.dart';
+import 'package:videoapp/src/core/widget/scope.dart';
+import 'package:videoapp/src/feature/app/logic/sentry_init.dart';
 
 class AppLifecycleScope extends Scope {
   static const DelegateAccess<_AppLifecycleScopeDelegate> _delegateOf =

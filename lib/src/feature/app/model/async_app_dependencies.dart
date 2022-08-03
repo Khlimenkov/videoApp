@@ -1,3 +1,4 @@
+import 'package:camera/camera.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -5,9 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 class AsyncAppDependencies {
   final SharedPreferences sharedPreferences;
 
-  const AsyncAppDependencies({
-    required this.sharedPreferences,
-  });
+  const AsyncAppDependencies({required this.sharedPreferences});
 
   static Future<AsyncAppDependencies> obtain() async => AsyncAppDependencies(
         sharedPreferences: await SharedPreferences.getInstance(),

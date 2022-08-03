@@ -14,7 +14,7 @@ class NameBundle {
   final String packageName;
 
   const NameBundle({required this.packageName});
-  const NameBundle.original() : this(packageName: 'purple_starter');
+  const NameBundle.original() : this(packageName: 'videoapp');
 
   String get _appFileName => packageName + '_app';
 
